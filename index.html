@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Spectrum Visualizer</title>
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+    <div class="container">
+        <h1 class="title">Audio Spectrum Visualizer</h1>
+        <p class="subtitle">Upload your music and watch the frequencies come to life</p>
+        
+        <div class="visualizer-container">
+            <canvas id="visualizer"></canvas>
+        </div>
+        
+        <div class="controls">
+            <div class="file-input-wrapper">
+                <input type="file" id="audioFile" accept="audio/*">
+                <label for="audioFile" class="file-input-label">Choose Audio File</label>
+            </div>
+            
+            <button id="playPauseBtn" class="control-btn" disabled>Play</button>
+            <button id="stopBtn" class="control-btn" disabled>Stop</button>
+            
+            <div class="volume-control">
+                <span>🔊</span>
+                <input type="range" id="volumeSlider" class="volume-slider" min="0" max="100" value="50">
+            </div>
+        </div>
+        
+        <div class="track-info" id="trackInfo" style="display: none;">
+            <div class="track-name" id="trackName">No track selected</div>
+            <div class="track-time" id="trackTime">0:00 / 0:00</div>
+            <div class="progress-bar" id="progressBar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
