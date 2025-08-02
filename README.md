@@ -40,7 +40,7 @@ __🚀 How to Use:__
 
 __🌐 Live Demo:__
 
-- (Provide the URL to your GitHub Pages or other live demo link here)
+- https://faran-inam.github.io/Audio-Spectrum-Visualizer/
 
 __📄 License:__
 
@@ -52,4 +52,4 @@ __📧 Let's Connect:__
 
 - Name : Faran Inam
   
-- E-Mail: Faraninam.18@gmail.com
+- Email : faraninam.18@gmail.com
