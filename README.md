@@ -52,4 +52,4 @@ __📧 Let's Connect:__
 
 - Name : Faran Inam
   
-- Email : faraninam.18@gmail.com
+- Email : faraninam.dev@gmail.com
