@@ -40,7 +40,7 @@ __🚀 How to Use:__
 
 __🌐 Live Demo:__
 
-- https://faran-inam.github.io/Audio-Spectrum-Visualizer/
+- https://faraninamdev.github.io/Audio-Spectrum-Visualizer/
 
 __📄 License:__
 
